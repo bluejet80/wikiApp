@@ -1,31 +1,21 @@
-# marketApp
-This is the market app that is a project for market analysis
-
 # wikiApp
-This repo also contains an app that goes and gets a screen shot of a website.  
+This app was made to practice asynchronous functions in JavaScript
 
-It uses puppeteer to open a browser and then capture the screenshot.  
+# Aspects
 
-Both of thee projects use async functions
+This repo contains two projects.  
+## wikiApp
+One is a wikiApp that will go and capture a screenshot of a website and then  
+save the image to the server.
+## redditApp
+The second project is more extensive work with API's.
 
+### Outline
+I wish to be able with this app to go a nd pull the top level headings  
+from a subreddit and store the specific data from that site in a JSON file  
+and then go to the comments of each heading and in the same manner capture  
+the specific data from the comments and save that to a JSON file.
 
-# Outline
-## Create a viable Dataset
-I made a function to produce the data that I will be testing the app with.
-
-## Create the App
-Now I need to make the app that will take a amount of money to be invested  
-and then either buy or sell a percentage when the market goes up or down  
-respectively. 
-
-The idea behind the app is that it works off of percentages. If the market  
-goes down a little, you use a small percentage of the money invested to buy  
-some stock. Likewise if the market goes up, then you will sell a small  
-percentage of the amount that is currently invested.  
-
-## Aspects
-
-### Money to Invest
-### Ratio of Percentages
-### What happens when the majority of the money is invested?
-
+#### Current Progress
+So far I have the functionality created to do what I wish. I just need to  
+flush it out a bit and then create a web page to display the data on. 
