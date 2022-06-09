@@ -1,0 +1,35 @@
+
+
+Export
+mongodump --uri "mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/sample_supplies"
+
+mongoexport --uri="mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/sample_supplies" --collection=sales --out=sales.json
+
+
+Import
+mongorestore --uri "mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/sample_supplies"  --drop dump
+
+mongoimport --uri="mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/sample_supplies" --drop sales.json
+
+
+connect and query on the commandline
+
+mongo "mongodb+srv://<username>:<password>@<cluster>.mongodb.net/admin"
+
+show dbs
+
+use sample_training
+
+show collections
+
+db.zips.find({"state": "NY"})
+
+
+it iterates through the cursor.
+
+
+db.zips.find({"state": "NY"}).count()
+
+db.zips.find({"state": "NY", "city": "ALBANY"})
+
+db.zips.find({"state": "NY", "city": "ALBANY"}).pretty()

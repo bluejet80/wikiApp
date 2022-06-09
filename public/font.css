@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'aileron';
+  src: url('fonts/aileron/aileron-light-webfont.woff') format('woff2'),
+    url('fonts/aileron/aileron-light-webfont.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'chuckfive';
+  src: url('fonts/chuckfive/chunk_five_print-webfont.woff') format('woff'),
+    url('fonts/chuckfive/chunk_five_print-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'rubik';
+  src: url('fonts/rubik/rubik-blackitalic-webfont.woff') format('woff'),
+    url('fonts/rubik/rubik-blackitalic-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'abhaya';
+  src: url('fonts/abhayaLibre/abhayalibre-regular-webfont.woff') format('woff'),
+    url('fonts/abhayaLibre/abhayalibre-regular-webfont.woff2') format('woff2');
+}

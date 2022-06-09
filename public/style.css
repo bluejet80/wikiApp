@@ -1,0 +1,155 @@
+@import url("font.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* Set the width of the main elements */
+.titlebar .navbar .maincontain .footbar {
+  width: 95%;
+}
+
+.titlebar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.navbar {
+  border-top: 3pt solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlink {
+  text-align: center;
+  width: 80%;
+  height: 0.75cm;
+  border-bottom: 0.25cm solid rgb(244, 127, 10);
+  font-family: rubik;
+  font-size: 18pt;
+  color: black;
+  text-decoration: none;
+  background-color: rgb(244, 127, 10);
+}
+
+.navlink:hover {
+  color: aliceblue;
+  border-bottom: 0.25cm solid rgb(159, 80, 2);
+}
+
+.maincontain {
+  display: block;
+}
+
+/* JS Form Styles */
+
+label {
+  font-family: rubik;
+  font-size: 18pt;
+}
+
+#js-search-input,
+#node-search-input {
+  margin: 5px;
+  width: 15cm;
+  border: 3pt black solid;
+  font-size: 18pt;
+}
+
+.js-search-btn,
+.node-search-btn {
+  margin: 0.5cm;
+  position: relative;
+  left: 10cm;
+  width: 3cm;
+  font-family: rubik;
+  font-size: 18pt;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/*  Section Styles */
+
+.section {
+  border-top: 1cm solid black;
+  padding: 15px;
+}
+
+.section p {
+  font-family: aileron;
+  margin-top: 10px;
+}
+.section h1 {
+  font-family: rubik;
+  margin-bottom: 10px;
+}
+
+.footbar {
+  color: whitesmoke;
+  text-align: center;
+}
+
+/*  Color Styles */
+
+.maroongrad {
+  background: linear-gradient(0.25turn, rgb(3, 102, 159), rgb(255, 255, 255));
+}
+
+.red {
+  background-color: rgb(244, 44, 10);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.orange {
+  background-color: rgb(244, 127, 10);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.yellow {
+  background-color: rgb(250, 182, 9);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.grey {
+  background-color: rgb(86, 115, 136);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.blue {
+  background-color: rgb(18, 58, 196);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.ltblue {
+  background-color: rgb(10, 141, 236);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.green {
+  background-color: rgb(22, 149, 6);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.purple {
+  background-color: rgb(139, 26, 142);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.violet {
+  background-color: rgb(102, 12, 185);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.ltgreen {
+  background-color: rgb(24, 208, 60);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.black {
+  background-color: rgb(0, 3, 0);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
